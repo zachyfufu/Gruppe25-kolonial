@@ -28,6 +28,7 @@
 
         #filledHandlekurv
         {
+            position: inherit;
             margin-left: 25%;
             margin-top: 5%;
         }
@@ -76,6 +77,7 @@
 
 
 
+
     </style>
 
 </head>
@@ -97,15 +99,17 @@
 
         elseif($rowNumber > 0)
         {
-            echo '<img id="filledHandlekurv" src="images/filledHandlekurv.jpg">';
-            echo '<div id="vareBar"></div>';
-            echo '<img id="fortsett" src="images/fortsett.jpg">';
+            echo '<div id="container2">';
+                echo '<img id="filledHandlekurv" src="images/filledHandlekurv.jpg">';
+                echo '<div id="vareBar"></div>';
+                echo '<img id="fortsett" src="images/fortsett.jpg">';
 
-            while ($row = $items->fetch())
-            {
-                echo '<p id="productName">'. $row['navn'].'';
-                echo "<img id='productIcon' src='{$row['bildeURL']}'>";
-            }
+                while ($row = $items->fetch())
+                {
+                     echo '<p id="productName">'. $row['navn'].'';
+                     echo "<img id='productIcon' src='{$row['bildeURL']}'>";
+                }
+            echo '</div>';
 
         }
 
@@ -114,7 +118,6 @@
 
 </div>
 
-    <?php include "php/footer.php"; ?>
 
 </body>
 
