@@ -1,10 +1,76 @@
+
 body{
-    background-color: blue;
+    background-color: white;
+    margin-left: -1px;
 }
 
 #container{
-    height: 110%;
+    height: 2000px;
     width: 100%;
     position: absolute;
-    background-color: black;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+#items{
+    position: inherit;
+    top: 22%;
+    left: 20%;
+    height: 80%;
+    width: 70%;
+    background-color: lightblue;
+    visibility: ;
+    
+}
+
+#produktmeny{
+    position: inherit;
+    left: 5%;
+    top: 22%;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+}
+#meny{
+    position: relative;
+    height: 210px;
+    width: 1200px;
+    top: 200px;
+    left: 20%;
+    overflow: hidden;
+}
+
+#menybilde{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    
+}
+#reminder{
+    position: inherit;
+    top: -1%;
+    height: 200px;
+    width: 100%;
+    background-color: #FFAF10;
+}
+
+#reminderTxt{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: inherit;
+    left: 10%;
+    top: 5%;
+}
+
+#footerDiv{
+    position: inherit;
+    height: 300px;
+    width: 2000px;
+    bottom: 0%;
+    background-color: yellow;
+    
 }
