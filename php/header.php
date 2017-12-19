@@ -23,6 +23,7 @@
             margin-left: -10px;
             margin-right: -10px;
             border-bottom: 1px solid #d6d7d8;
+            position: inherit;
         }
 
         #searchBar
@@ -70,6 +71,8 @@
 
 
 
+
+
         
         
     </style>
@@ -78,6 +81,7 @@
 
 <body>
 
+
 <a href="index.php">
 <img id="banner" src="images/kolonialheaderpic.png">
 </a>
@@ -85,6 +89,7 @@
 <div id="topBar"><input type="text" value="Søk i 6000 varer!" id="searchBar"><img id="search" src="images/search.png"><a href="handlekurv.php"><img id="cart" src="images/cart.png"></a><div id="points">&nbsp&nbsp&nbsp&nbsp&nbspPoints</div></div>
 
 <img id="arrow" src="images/arrow.png">
+
 
     
 </body>
