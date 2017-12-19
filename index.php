@@ -2,14 +2,23 @@
 <html>
 
 <head>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js">
+
+
+
+
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+
     <?php include "php/header.php";
           include "php/connection.php";
     ?>
+
+
+<div id="wrappie">
 
 <div id="container">
     <div id="reminder">
@@ -71,6 +80,8 @@
 
 
     </div>
+
+</div>
 
 <?php include "php/footer.php" ?>
 

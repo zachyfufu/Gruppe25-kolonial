@@ -28,9 +28,7 @@
 
         #filledHandlekurv
         {
-            position: inherit;
-            margin-left: 25%;
-            margin-top: 5%;
+            position: relative; left: 630px; top: 50px;
         }
 
         #vareBar
@@ -72,7 +70,7 @@
 
         #fortsett
         {
-            position: absolute; left: 1480px; top: 550px;
+            position: inherit;
         }
 
 

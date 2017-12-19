@@ -59,7 +59,9 @@
             padding-top: 5px;
             height: 23px;
             width: 84px;
-            position: relative; bottom: 38px; left: 1710px;
+            position: inherit;
+            margin-left: 1730px;
+            margin-top: -38px;
             box-shadow: 1px 1px #888888;
             border-radius: 3px;
             font-size: 17px;
@@ -80,6 +82,7 @@
 </head>
 
 <body>
+
 
 
 <a href="index.php">

@@ -10,7 +10,7 @@
      #footer{
          position: inherit;
          height: 20%;
-         width: 100%; top: 90%;
+         width: 100%;
          background-color: #2C242F;
 
      }
