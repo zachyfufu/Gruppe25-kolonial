@@ -2,97 +2,38 @@
 
 <head>
 
-    <?php include "php/connection.php"; ?>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <style>
 
-        #container
+        #btn
         {
-            position: absolute;
-            height: 1000px;
-            width: 140%;
-            margin-left: -10px;
-            margin-top: -16px;
-
-            background-color: white;
-        }
-
-        #påminnelse
-        {
-            position: absolute; top: 4%;
-            margin-left: -1%;
-            width: 80%;
-            height: 23%;
-        }
-
-        #julemeny
-        {
-            position: absolute; top: 30%; left: 15%;
-            height: 40%;
-            width: 70%;
-        }
-
-        #produkterMeny
-        {
-            position: absolute; top: 19%;
-        }
-
-        #productIcon
-        {
-            position: relative; bottom: 700px; left: 100px;
-            height: 200px;
+            height: 40px;
             width: 100px;
+            background-color: #FFA510;
+            border: none;
         }
-
-        #varer
-        {
-            display: inline;
-            width: 70%;
-            background-color: #2C242F;
-            height: 80%;
-        }
-
-
 
     </style>
 
-</head>
+    <script>
 
+
+
+    </script>
+
+</head>
 <body>
 
-<?php
-include "php/header.php";
-$stmt = $pdo->query('SELECT * FROM varer');
 
-?>
+<button id="btn" type="button1" onclick="window.location.href = 'php/addToCart.php?id=5'"/>
+<p>HALLO</p>
 
-<div id="container">
+<img id="test" src="images/juleImage.jpg"
 
-    <img id="påminnelse" src="images/påminnelse.png">
-    <div id="produkterMeny"><img src="images/produkterMeny.jpg"</div>
-
-
-    <div id="julemeny"><img id="juleImg" src="images/juleImage.jpg"</div>
-
-    <div id="varer">
-
-        <?php
-            while ($row = $stmt->fetch())
-             {
-                 echo '<p id="productName">'. $row['navn'].'';
-                echo "<img id='productIcon' src='{$row['bildeURL']}'>";
-             }
-
-        ?>
-
-    </div>
-
-</div>
-
-<?php
-include "php/footer.php";
-?>
 
 </body>
+
+
 
 </html>
