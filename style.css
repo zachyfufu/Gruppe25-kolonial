@@ -1,0 +1,10 @@
+body{
+    background-color: blue;
+}
+
+#container{
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
