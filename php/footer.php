@@ -2,21 +2,18 @@
 <head>
     <style>
 
-
      body
      {
          overflow-x: hidden;
      }
 
-    #footer
-    {
-        background-color: #2C242F;
-        height: 600px;
-        width: 110%;
-        margin-top: 710px;
-        margin-left: -10px;
-        position: relative; top: 155px;
-    }
+     #footer{
+         position: inherit;
+         height: 20%;
+         width: 100%; top:90%;
+         background-color: #2C242F;
+
+     }
 
     </style>
 
@@ -24,7 +21,7 @@
 
 <body>
 
-<div id="footer">ss</div>
+<div id="footer"></div>
 </body>
 
 

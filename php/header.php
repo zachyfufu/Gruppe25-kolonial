@@ -77,8 +77,10 @@
 </head>
 
 <body>
-    
+
+<a href="index.php">
 <img id="banner" src="images/kolonialheaderpic.png">
+</a>
 
 <div id="topBar"><input type="text" value="Søk i 6000 varer!" id="searchBar"><img id="search" src="images/search.png"><a href="handlekurv.php"><img id="cart" src="images/cart.png"></a><div id="points">&nbsp&nbsp&nbsp&nbsp&nbspPoints</div></div>
 

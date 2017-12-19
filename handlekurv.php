@@ -74,6 +74,8 @@
             position: absolute; left: 1480px; top: 550px;
         }
 
+
+
     </style>
 
 </head>
@@ -84,21 +86,22 @@
 <div id="container">
     <?php
 
-    $stmt = $pdo->query('SELECT * FROM handlekurv');
+    $items = $pdo->query('SELECT * FROM handlekurv');
+    $rowNumber = $items->rowCount();
 
-        $GLOBALS['cartIsEmpty'] = false;
 
-        if($GLOBALS['cartIsEmpty'] == true)
+        if($rowNumber == 0)
         {
                 echo '<img id="emptyHandlekurv" src="images/emptyHandlekurv.jpg">';
         }
 
-        else if($GLOBALS['cartIsEmpty'] == false)
+        elseif($rowNumber > 0)
         {
             echo '<img id="filledHandlekurv" src="images/filledHandlekurv.jpg">';
             echo '<div id="vareBar"></div>';
             echo '<img id="fortsett" src="images/fortsett.jpg">';
-            while ($row = $stmt->fetch())
+
+            while ($row = $items->fetch())
             {
                 echo '<p id="productName">'. $row['navn'].'';
                 echo "<img id='productIcon' src='{$row['bildeURL']}'>";
