@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e85787-0548-495a-8a8e-b1396824a22c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kjøpfullført.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ferdighandel.php" afterPath="$PROJECT_DIR$/ferdighandel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handlekurv.php" afterPath="$PROJECT_DIR$/handlekurv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,13 +15,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="441">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <marker date="1513773550652" expanded="true" signature="1521:1540" ph="SELECT * FRO... varer" />
                 <marker date="1513773550652" expanded="true" signature="2076:2121" ph="..." />
               </folding>
             </state>
@@ -67,21 +63,21 @@
       <file leaf-file-name="handlekurv.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handlekurv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-                <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
+                <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+                <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ferdighandel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ferdighandel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ferdighandel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="493">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -90,7 +86,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="765">
               <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding />
             </state>
@@ -101,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s</find>
       <find>productDiv</find>
       <find>finn</find>
       <find>footer</find>
@@ -125,12 +120,13 @@
       <find>txt</find>
       <find>name</find>
       <find>product</find>
-      <find>points</find>
       <find>font</find>
       <find>font-fam</find>
-      <find>fo</find>
       <find>kjøp</find>
+      <find>fo</find>
       <find>btn</find>
+      <find>includ</find>
+      <find>points</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +145,11 @@
         <option value="$PROJECT_DIR$/php/addToCart.php" />
         <option value="$PROJECT_DIR$/php/checkCart.php" />
         <option value="$PROJECT_DIR$/php/footer.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
-        <option value="$PROJECT_DIR$/handlekurv.php" />
-        <option value="$PROJECT_DIR$/ferdighandel.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/handlekurv.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/ferdighandel.php" />
       </list>
     </option>
   </component>
@@ -324,12 +320,12 @@
       <workItem from="1513551733950" duration="12016000" />
       <workItem from="1513688892032" duration="21176000" />
       <workItem from="1513716771581" duration="1590000" />
-      <workItem from="1513762483463" duration="15060000" />
+      <workItem from="1513762483463" duration="17532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75311000" />
+    <option name="totallyTimeSpent" value="77783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,7 +366,6 @@
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <marker date="1513773550652" expanded="true" signature="1521:1540" ph="SELECT * FRO... varer" />
             <marker date="1513773550652" expanded="true" signature="2076:2121" ph="..." />
           </folding>
         </state>
@@ -424,8 +419,8 @@
         <state relative-caret-position="1224">
           <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
           <folding>
-            <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-            <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
+            <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+            <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
           </folding>
         </state>
       </provider>
@@ -443,7 +438,6 @@
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <marker date="1513773550652" expanded="true" signature="1521:1540" ph="SELECT * FRO... varer" />
             <marker date="1513773550652" expanded="true" signature="2076:2121" ph="..." />
           </folding>
         </state>
@@ -486,8 +480,8 @@
         <state relative-caret-position="1224">
           <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
           <folding>
-            <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-            <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
+            <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+            <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
           </folding>
         </state>
       </provider>
@@ -533,8 +527,8 @@
         <state relative-caret-position="1768">
           <caret line="104" column="13" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="104" selection-end-column="13" />
           <folding>
-            <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-            <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
+            <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+            <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
           </folding>
         </state>
       </provider>
@@ -553,8 +547,8 @@
         <state relative-caret-position="1241">
           <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
           <folding>
-            <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-            <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
+            <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+            <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
           </folding>
         </state>
       </provider>
@@ -603,36 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlekurv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="11" />
-          <folding>
-            <marker date="1513780340894" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
-            <marker date="1513780340894" expanded="true" signature="2069:2094" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <marker date="1513773550652" expanded="true" signature="1521:1540" ph="SELECT * FRO... varer" />
-            <marker date="1513773550652" expanded="true" signature="2076:2121" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -641,11 +605,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/handlekurv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1513781852599" expanded="true" signature="1787:1811" ph="SELECT * FRO... handlekurv" />
+            <marker date="1513781852599" expanded="true" signature="2069:2094" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ferdighandel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="493">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1513773550652" expanded="true" signature="2076:2121" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

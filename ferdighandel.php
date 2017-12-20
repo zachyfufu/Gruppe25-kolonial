@@ -12,7 +12,9 @@
         #container {
             height: auto;
             width: auto;
-            position: absolute; top: 50%; left: 55%;
+            position: absolute;
+            top: 50%;
+            left: 55%;
             margin-top: -100px;
             margin-left: -200px;
 
