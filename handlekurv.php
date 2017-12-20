@@ -109,15 +109,18 @@
         elseif($rowNumber > 0)
         {
             echo '<div id="container2">';
-                echo '<img id="filledHandlekurv" src="images/filledHandlekurv.jpg">';
+                    echo '<img id="filledHandlekurv" src="images/filledHandlekurv.jpg">';
+
                 echo '<div id="vareBar"></div>';
-                echo '<img id="fortsett" src="images/fortsett.jpg">';
+                echo '<a id="ferdigref" href="ferdighandel.php">';
+                    echo '<img id="fortsett" src="images/fortsett.jpg">';
+                echo '</a>';
 
                 while ($row = $items->fetch())
                 {
                      echo '<p id="productName">'. $row['navn'].'';
-                     echo '<div id="productIconDiv">';
-                        echo "<img id='productIcon' src='{$row['bildeURL']}'>";
+                        echo '<div id="productIconDiv">';
+                            echo "<img id='productIcon' src='{$row['bildeURL']}'>";
                     echo '</div>';
                 }
             echo '</div>';
