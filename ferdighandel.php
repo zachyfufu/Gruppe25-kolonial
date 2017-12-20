@@ -17,9 +17,9 @@
    
 height: auto;
             width: auto;
-    position: fixed;
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     margin-top: -100px; 
     margin-left: -200px;
 
@@ -32,9 +32,9 @@ height: auto;
     
      height:auto;
     width: auto;
- position: fixed;
+ position: absolute;
     top: 60%;
-    left: 42%;
+    left: 48%;
     margin-top: -100px; 
     margin-left: -200px;
     
@@ -71,11 +71,11 @@ height: auto;
  
   
     
-    <a href="url">Dine poeng</a>
-    <a href="url">Tilbake til forsiden</a>
+    <a href="spill.php">Dine poeng</a>
+    <a href="index.php">Tilbake til forsiden</a>
 
 </div>
-    <?php include "php/footer.php"; ?>
+    
 
 </body>
 
