@@ -1,28 +1,26 @@
 <html>
+
 <head>
-    <style>
+<style>
 
-     body
-     {
-         overflow-x: hidden;
-     }
+    #footer
+    {
+        position: relative; top: 1200px;
+        height: 1000px;
+        width: 100%;
+        background-color: #2C242F;
+    }
 
-     #footer{
-         position: inherit;
-         height: 20%;
-         width: 100%;
-         background-color: #2C242F;
 
-     }
 
-    </style>
-
+</style>
 </head>
 
 <body>
 
-<div id="footer"></div>
-</body>
 
+    <div id="footer">HALLO</div>
+
+</body>
 
 </html>

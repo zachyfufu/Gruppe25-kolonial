@@ -17,9 +17,6 @@
           include "php/connection.php";
     ?>
 
-
-<div id="wrappie">
-
 <div id="container">
     <div id="reminder">
         <p id="reminderTxt"> Zachary, du har 3 gratis leveringer til gode! <br> Halder du for over kr. 600,- får du leveringer gratis. Gjelder tirsdag-torsdag. <br><br> Gyldig til 29. desember 2017. </p>
@@ -29,8 +26,9 @@
         <img id="menybilde" src="images/menyer.png">
     </div>
 
-    <h1 id="finnFrem">Finn frem</h1>
-    <h1 id="dineTilbud">Dine tilbud</h1>
+
+    <div id="finnFrem"><h1>Finn frem</h1></div>
+    <div id="dineTilbud"><h1>Dine tilbud</div>
 
     
     <div id="produktmeny">
@@ -63,16 +61,15 @@
         {
                 echo '<div id="productDiv">';
                     echo "<img id='productIcon' src='{$row['bildeURL']}'>";
-                         echo '<button id="btn" onclick="window.location.href = \'php/addToCart.php?id=' . $row['id'] . '\'"/>Kjøp</button>';
-                    echo '</div>';
-
-                echo '<div id="prisDiv">';
+                echo '<button id="btn" onclick="window.location.href = \'php/addToCart.php?id=' . $row['id'] . '\'"/>Kjøp</button>';
+                 echo '<div id="prisDiv">';
                     echo '<p id="pris">kr&nbsp' . $row['pris'] . '</p>';
                  echo '</div>';
+                    echo '</div>';
+
+
         }
 
-
-        $cartIsEmpty = false;
 
 
         ?>
@@ -80,9 +77,7 @@
 
 
     </div>
-
-</div>
-
+<div>
 <?php include "php/footer.php" ?>
 
  

@@ -31,7 +31,7 @@
             z-index: 1;
             margin-left: 207px;
             margin-top: 35px;
-            height: 43px;
+            height: 40px;
             width: 408px;
             color: grey;
             padding-left: 9px;

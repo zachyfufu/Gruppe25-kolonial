@@ -9,13 +9,18 @@
 
     <style>
 
+        #container2
+        {
+            margin-bottom: -1700px;
+        }
+
         #container
         {
             position: absolute;
             height: 60%;
             width: 140%;
             margin-left: -10px;
-            margin-top: -14px;
+            margin-top: 4%;
 
             background-color: white;
         }

@@ -1,4 +1,5 @@
 
+
 body{
     background-color: white;
     margin-left: -1px;
@@ -7,7 +8,7 @@ body{
 #container{
     height: 1300px;
     width: 100%;
-    position: absolute;
+    position: inherit;
     background-color: white;
     overflow: hidden;
     
@@ -15,19 +16,20 @@ body{
 
 #items{
     position: inherit;
-    top: 33%;
+    top: 10px;
     left: 20%;
     height: 80%;
-    width: 150%;
+    width: 55%;
 }
 
 #productIcon
 {
-    position: relative;
+    position: inherit;
     display: block;
     float: left;
-    padding-right: 100px;
-    height: 100%;
+    padding-right: 10px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #productIcon:hover + #btn
@@ -38,11 +40,14 @@ body{
 #productDiv
 {
     height: 150px;
-    width:  1px;
+    width:  150px;
     display: inline-block;
-    margin-left: 240px;
-    margin-top: 2%;
-
+    margin-left: 40px;
+    margin-right:10px;
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+    border-shadow: 2px;
 }
 
 #productName
@@ -56,8 +61,8 @@ body{
 
 #produktmeny{
     position: inherit;
-    left: 20%;
-    top: 37%;
+    margin-left: 380px;
+    margin-top: 150px;
     height: 400px;
     width: 190px;
     line-height: 15px;
@@ -70,7 +75,7 @@ body{
     position: relative;
     height: 210px;
     width: 1200px;
-    top: 200px;
+    top: 70px;
     left: 20%;
     overflow: hidden;
 }
@@ -83,10 +88,12 @@ body{
 }
 #reminder{
     position: inherit;
-    top: -1%;
+    margin-left: -20px;
+    margin-right: -10px;
     height: 15%;
-    width: 100%;
+    width: 120%;
     background-color: #FFAF10;
+
 }
 
 #reminderTxt{
@@ -94,16 +101,14 @@ body{
     font-size: 25px;
     font-family: sans-serif;
     font-weight: bold;
-    position: inherit;
-    left: 15%;
-    top: 8%;
+    position: relative; left: 20%; top: 15%;
 }
 
 #btn
 {
     position: absolute; top: 4%;
     color: white;
-    margin-left: -110px;
+    margin-left: -10%;
     height: 26px;
     width: 40px;
     background-color: #FFA510;
@@ -119,30 +124,33 @@ body{
 
 #pris
 {
-    position: inherit; right: -150px;
+    position: inherit;
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+
 }
 
 #prisDiv
 {
-    position: inherit; top: 20%;
-    margin-left: -5%;
+    position: inherit;
     display: inline-block;
+    top:13% ;
+    right:-30%;
 }
 
 #finnFrem
 {
-    position: inherit; bottom: 76%; left: 20%;
-    font-size: 18px;
+    position: absolute; top: 600px; left: 636px;
+    font-size: 11px;
     color: gray;
     font-family: sans-serif;
 }
 
 #dineTilbud
 {
-    position: inherit; bottom: 76%; left: 33%;
-    font-size: 18px;
+    position: absolute; top: 600px; left: 377px;
+    font-size: 11px;
     color: gray;
     font-family: sans-serif;
 }
-
-*:{ border: 1px solid red; }
