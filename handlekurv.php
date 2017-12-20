@@ -53,12 +53,12 @@
 
         #productName
         {
-            position: relative; top: -850px; left: -5px;
-            margin-left: 410px;
+            position: relative; top: -850px; left: 20px;
+            margin-left: 500px;
             margin-top: 10px;
             margin-bottom: 30px;
             padding-left: 70px;
-            width: 1127px;
+            width: 1200px;
             height: 30px;
             z-index: 1;
             border-bottom: 1px solid #d6d7d8;
@@ -68,14 +68,20 @@
         #productIcon
         {
             height: 35px;
-            position: relative; right: 40px; bottom: 30px;
+            position: relative; right: 30px; bottom: 30px;
             display: block;
 
         }
 
         #fortsett
         {
-            position: inherit;
+            position: absolute; left: 56%; top: 95%;
+        }
+
+        #productIconDiv
+        {
+            position: relative; bottom: 900px; left: 450px;
+
         }
 
 
@@ -110,7 +116,9 @@
                 while ($row = $items->fetch())
                 {
                      echo '<p id="productName">'. $row['navn'].'';
-                     echo "<img id='productIcon' src='{$row['bildeURL']}'>";
+                     echo '<div id="productIconDiv">';
+                        echo "<img id='productIcon' src='{$row['bildeURL']}'>";
+                    echo '</div>';
                 }
             echo '</div>';
 

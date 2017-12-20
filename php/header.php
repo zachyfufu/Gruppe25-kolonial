@@ -26,26 +26,12 @@
             position: inherit;
         }
 
-        #searchBar
-        {
-            z-index: 1;
-            margin-left: 207px;
-            margin-top: 35px;
-            height: 40px;
-            width: 408px;
-            color: grey;
-            padding-left: 9px;
-        }
-
-        #search
-        {
-            margin-left: -34px;
-            margin-bottom: -4px;
-        }
 
         #cart
         {
-            position: relative; top: 14px; right: -1205px;
+            position: inherit;
+            margin-left: 1817px;
+            margin-top: 38px;
         }
 
         #arrow
@@ -60,7 +46,7 @@
             height: 23px;
             width: 84px;
             position: inherit;
-            margin-left: 1730px;
+            margin-left: 1716px;
             margin-top: -38px;
             box-shadow: 1px 1px #888888;
             border-radius: 3px;
@@ -89,7 +75,7 @@
 <img id="banner" src="images/kolonialheaderpic.png">
 </a>
 
-<div id="topBar"><input type="text" value="Søk i 6000 varer!" id="searchBar"><img id="search" src="images/search.png"><a href="handlekurv.php"><img id="cart" src="images/cart.png"></a><div id="points">&nbsp&nbsp&nbsp&nbsp&nbspPoints</div></div>
+<div id="topBar"><a href="handlekurv.php"><img id="cart" src="images/cart.png"></a><div id="points">&nbsp&nbsp&nbsp&nbsp&nbspPoints</div></div>
 
 <img id="arrow" src="images/arrow.png">
 
